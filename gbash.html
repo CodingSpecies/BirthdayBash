@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Samim's BirthdayBash</title>
+    <link rel="stylesheet" type="text/css" href="./gbash.css">
+    <link rel="icon" href="https://cdn.iconscout.com/icon/free/png-256/git-14-599158.png">
+</head>
+
+<body>
+    <div id="console">
+        <div id="bar">
+            <div class="controls">
+                <div class="c">
+                    <p class="control">&times;</p>
+                </div>
+                <div class="c">
+                    <p class="control">&minus;</p>
+                </div>
+            </div>
+            <p id="title">
+                Samim's - Bash v.1.3
+            </p>
+        </div>
+        <div id="screen">
+            <p>
+                Last login: Tue 14 2021. <br>
+                Bash Update. <br>
+                Update v.1.4. <br>
+                What's in the package: <br>
+                Happy Birthday Samim Jan!!! <br>
+                Thank you for being our teacher!!! <br>
+                Have a great day!!!! <br>
+            </p>
+        </div>
+    </div>
+
+    <script>
+        $(document).ready(function () {
+            $(".control").hide();
+            $(".c").hover(function () {
+                $(".control").show();
+            }, function () {
+                $(".control").hide();
+            });
+        });
+    </script>
+</body>
+
+</html>

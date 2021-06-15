@@ -1,0 +1,68 @@
+body {
+    background-image: url("https://www.wallpaperkiss.com/wimg/b/125-1251171_big.jpg");
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    font-size: 14px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#console {
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+#bar {
+    background: #efefef;
+    padding: 3px;
+    border-radius: 8px 8px 0 0;
+    height: 20px;
+    display: flex;
+    cursor: pointer;
+}
+
+.c {
+    font-family: sans-serif;
+    font-style: normal;
+    background: #ccc;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    text-align: center;
+    display: inline-block;
+}
+
+#controls:hover {
+    cursor: pointer;
+}
+
+.c p {
+    font-size: 20px;
+    position: relative;
+    top: -3px;
+}
+
+#title {
+    width: 80%;
+    text-align: center;
+}
+
+#screen {
+    background: black;
+    color: green;
+    width: calc(100% - 5px);
+    height: 300px;
+    border-radius: 0 0 8px 8px;
+    font-weight: bold;
+}
+
+#screen {
+    padding-left: 5px;
+}
