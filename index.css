@@ -6,6 +6,19 @@ body {
     background-repeat: no-repeat;
 }
 
+a {
+    background-image: linear-gradient(yellow, cyan, lime);
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 15px;
+    width: 150px;
+    height: 60px;
+    float: right;
+    text-decoration: none;
+    font-weight: bolder;
+    font-size: 23px;
+    text-align: center;
+}
+
 * {
     padding: 0;
     margin: 0;
